@@ -1,0 +1,36 @@
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.joke-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.btn-joke{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+}
+
+.img-joker{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
